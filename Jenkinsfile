@@ -4,7 +4,7 @@ node {
         git 'https://github.com/priximmo/jenkins-helloworld.git'
     }
     
-    stage('Décision') 
+    stage('Nos Décisions') 
     {
         sh 'javac Main.java'
     }    
